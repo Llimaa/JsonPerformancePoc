@@ -19,6 +19,14 @@ Comparação entre a serialização convencional e a serialização com Source G
 | SerializerCustom  |   644.5 ms | 2.46 ms | 2.06 ms |     736 B |
 
 
+### Executar Benchmark :hammer_and_wrench: 
+Para executar o Benchmark localmente em sua máquina, clone o repositório do projeto e execute o seguinte comando:
+```bash
+  dotnet run --configuration Release 
+```
+
+
+
 ### Documentações de apoio :book:
 [Reflection versus source generation in System.Text.Json](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/reflection-vs-source-generation?pivots=dotnet-8-0)
 
